@@ -18,13 +18,13 @@ namespace task_3
 
             Console.WriteLine(new string('=', 64));
 
-            Console.Write("Input the first leg value: ");
+            Console.Write(">_ Input the first leg value: ");
             string firstLegValue = Console.ReadLine();
             double firstValue = Convert.ToDouble(firstLegValue);
 
             Console.WriteLine(new string('-', 64));
 
-            Console.Write("Input the second leg value: ");
+            Console.Write(">_ Input the second leg value: ");
             string secondLegValue = Console.ReadLine();
             double secondValue = Convert.ToDouble(secondLegValue);
 
@@ -32,7 +32,7 @@ namespace task_3
 
             double hypotenuseValue = Math.Sqrt(Math.Pow(firstValue, 2) + Math.Pow(secondValue, 2)); // calculate the hypotenuse of a right-angle triangle
 
-            Console.Write("The hypotenuse of a right-angle triangle: ");
+            Console.Write("<_ The hypotenuse of a right-angle triangle: ");
             Console.WriteLine("{0:N}", hypotenuseValue);
 
             Console.WriteLine(new string('=', 64));
