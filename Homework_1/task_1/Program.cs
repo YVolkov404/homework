@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Используя Visual Studio, создайте проект по шаблону Console Application. 
+// Используя Visual Studio, создайте проект по шаблону Console Application.  
 // Создайте программу для перевода метров в сантиметры (1м = 100см): ввод метров должен осуществлять пользователь.
 
 namespace task_1
