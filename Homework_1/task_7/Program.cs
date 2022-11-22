@@ -17,13 +17,13 @@ namespace task_7
 
             Console.WriteLine(new string('*', 44));
 
-            Console.Write(">_ Input the user's birthday: ");
+            Console.Write(">_ Input the year of user's birthday: ");
             string input = Console.ReadLine();
             int userBirthdaay = int.Parse(input);
 
             Console.WriteLine(new string('-', 44));
 
-            int userAge = DateTime.Now.Year - userBirthdaay; // calculates the age of the use
+            int userAge = DateTime.Now.Year - userBirthdaay; // calculates the age of the user
             string output = string.Concat("<_ The age of the user: " + userAge);
             Console.WriteLine(output);
 
