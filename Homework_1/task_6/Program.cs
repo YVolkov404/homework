@@ -29,7 +29,7 @@ namespace task_6
 
             Console.WriteLine(new string('+', 33));
 
-            double value = (value1 * value2) / 100;
+            double value = (value1 * value2) / 100; // calculate a discount on the merch
             Console.Write("<_ A discount on the merch: ");
             Console.WriteLine("{0:N}", value);
 

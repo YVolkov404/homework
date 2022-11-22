@@ -17,28 +17,22 @@ namespace task_5
 
             Console.WriteLine(new string('*', 40));
 
-            int variable1 = 666;
-            int variable2 = 225;
+            int variable1 = 666, variable2 = 225;
 
             Console.Write("[+] addition       _: ");
-            int addition = variable1 + variable2;
-            Console.WriteLine(string.Format("{0} + {1} = {2}", variable1, variable2, addition));
+            Console.WriteLine(string.Format($"{variable1} + {variable2} = {variable1 + variable2}")); // addition 
 
             Console.Write("[-] subtraction    _: ");
-            int subtraction = variable1 - variable2;
-            Console.WriteLine(string.Format("{0} - {1} = {2}", variable1, variable2, subtraction));
+            Console.WriteLine(string.Format($"{variable1} - {variable2} = {variable1 - variable2}")); // subtraction
 
             Console.Write("[*] multiplication _: ");
-            int multiplication = variable1 * variable2;
-            Console.WriteLine(string.Format("{0} * {1} = {2}", variable1, variable2, multiplication));
+            Console.WriteLine(string.Format($"{variable1} * {variable2} = {variable1 * variable2}")); // multiplication
 
             Console.Write("[/] division       _: ");
-            int division = variable1 / variable2;
-            Console.WriteLine(string.Format("{0} / {1} = {2}", variable1, variable2, division));
+            Console.WriteLine(string.Format($"{variable1} / {variable2} = {variable1 / variable2}")); // division 
 
             Console.Write("[%] reminder       _: ");
-            int reminder = variable1 % variable2;
-            Console.WriteLine(string.Format("{0} % {1} = {2}", variable1, variable2, reminder));
+            Console.WriteLine(string.Format($"{variable1} % {variable2} = {variable1 % variable2}")); // reminder 
 
             Console.ReadLine();
         }

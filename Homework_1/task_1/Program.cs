@@ -15,7 +15,7 @@ namespace task_1
         {
             Console.WriteLine("This programm converts metres to centimetres");
 
-            Console.WriteLine(new string('=', 44));
+            Console.WriteLine(new string('=', 44)); // just a delimiter
 
             Console.Write(">_ Input the number in metres: ");
             string metres = Console.ReadLine();
