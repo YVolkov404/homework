@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // Используя Visual Studio, создайте проект по шаблону Console Application. 
-// Создать программу для определения синуса угла: ввод угла должен осуществлять пользователь.
+// Создать программу для определения синуса угла: ввод величины угла должен осуществлять пользователь.
 
 namespace task_4
 {
@@ -19,7 +19,7 @@ namespace task_4
 
             Console.Write(">_ Input the angle: ");
             string angle = Console.ReadLine();
-            double value = Convert.ToDouble(angle);
+            double value = double.Parse(angle);
 
             Console.WriteLine(new string('-', 39));
 

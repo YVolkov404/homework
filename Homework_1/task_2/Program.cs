@@ -20,7 +20,7 @@ namespace task_2
 
             Console.Write(">_ Input radius: ");
             string radius = Console.ReadLine();
-            double r = Convert.ToDouble(radius);
+            double r = double.Parse(radius);
 
             Console.WriteLine(new string('-', 44));
 

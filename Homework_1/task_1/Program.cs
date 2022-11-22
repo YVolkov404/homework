@@ -19,7 +19,7 @@ namespace task_1
 
             Console.Write(">_ Input the number in metres: ");
             string metres = Console.ReadLine();
-            int m = Convert.ToInt32(metres);
+            int m = int.Parse(metres);
 
             Console.WriteLine(new string('-', 44));
 

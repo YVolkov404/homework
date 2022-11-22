@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // Используя Visual Studio, создайте проект по шаблону Console Application.
-// Написать программу для расчёта скидки на товар, скидку и цену товара должен вводить пользователь.
+// Написать программу для расчёта скидки на товар, скидка и цена товара должны вводится пользователь.
 
 namespace task_6
 {
@@ -19,13 +19,13 @@ namespace task_6
 
             Console.Write(">_ Input the price: ");
             string price = Console.ReadLine();
-            double value1 = Convert.ToDouble(price);
+            double value1 = double.Parse(price);
 
             Console.WriteLine(new string('-', 33));
 
             Console.Write(">_ Enter the dicount: ");
             string discount = Console.ReadLine();
-            double value2 = Convert.ToDouble(discount);
+            double value2 = double.Parse(discount);
 
             Console.WriteLine(new string('+', 33));
 
