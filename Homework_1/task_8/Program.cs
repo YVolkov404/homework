@@ -1,8 +1,4 @@
-﻿ using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 // Используя Visual Studio, создайте проект по шаблону Console Application.
 // Имеются 3 переменные типа int x = 10, y = 12, и z = 3;

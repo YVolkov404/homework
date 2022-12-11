@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // Используя Visual Studio, создайте проект по шаблону Windows Forms (.Net framework). 
 // Создайте программу для расчёта возраста пользователя. Вывести на консоль его текущий возраст (использовать DateTime).

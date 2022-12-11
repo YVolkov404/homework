@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // Используя Visual Studio, создайте проект по шаблону Console Application. 
 // Создайте константу с именем 'pi' (π - число «пи»). Создайте переменную c именем 'r' (радиус). 
