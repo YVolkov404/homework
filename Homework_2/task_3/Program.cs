@@ -13,9 +13,13 @@ namespace task_3
     {
         static void Main()
         {
-            Console.Write("Скільки часу вам знадобилось на інтервью?: ");
+            Console.WriteLine(new string('=', 61));
+
+            Console.Write("_. Скільки часу вам знадобилось на інтервью?: ");
             string min = Console.ReadLine();
             double minHour = double.Parse(min);
+
+            Console.WriteLine(new string('-', 61));
 
             double startHour = 0;
             double endHour = 59;
@@ -27,23 +31,25 @@ namespace task_3
 
                 if (minHour > startHour && minHour < qPast){
 
-                    Console.WriteLine("Швидко та по справі як український хаймарс. Чверті години не минуло");
+                    Console.WriteLine(">_ Швидко та по справі як український хаймарс. Чверті години не минуло");
                 }
                 else if (minHour > qPast && minHour < hPast)
                 {
-                    Console.WriteLine("Непогано впорались - майже ідеал! Друга чверть години за вами");
+                    Console.WriteLine(">_ Непогано впорались - майже ідеал! Друга чверть години за вами");
                 }
                 else if (minHour > hPast && minHour < qHour)
                 {
-                    Console.WriteLine("На 'усьо-про-всьо' біля 45ти хвилин. Тому годі й балакати!");
+                    Console.WriteLine(">_ На 'усьо-про-всьо' біля 45ти хвилин. Тому годі й балакати!");
                 } else
                 {
-                    Console.WriteLine("Мабуть ще й за 'життя-буття' розмова була. Майже година!");
+                    Console.WriteLine(">_ Мабуть ще й за 'життя-буття' розмова була. Майже година!");
                 }
 
             } else {
-                Console.WriteLine("Кепські справи! Перебільшено ліміт часу");
+                Console.WriteLine("!_ Кепські справи! Перебільшено ліміт часу");
             }
+
+            Console.WriteLine(new string('=', 61));
         }
     }
 }
