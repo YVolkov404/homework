@@ -50,7 +50,6 @@ namespace task_2
             }
             else {
 
-
                 Console.WriteLine("The discount is: " + discount3 + "%");
                 Console.WriteLine(new string('.', 50));
                 double amountOfDiscount = (item * price * discount3) / 100;
